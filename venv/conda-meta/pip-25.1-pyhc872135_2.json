@@ -4,9 +4,9 @@
   "channel": "https://repo.anaconda.com/pkgs/main/noarch",
   "constrains": [],
   "depends": [
-    "python >=3.9,<3.14.0a0",
     "setuptools",
-    "wheel"
+    "wheel",
+    "python >=3.9,<3.14.0a0"
   ],
   "extracted_package_dir": "C:\\Users\\dinesh jangir\\anaconda3\\pkgs\\pip-25.1-pyhc872135_2",
   "files": [
