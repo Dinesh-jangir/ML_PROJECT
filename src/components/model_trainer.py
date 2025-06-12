@@ -2,7 +2,7 @@ import os
 import sys
 from dataclasses import dataclass
 
-from sklearn.ensemble import AdaBoostRegressor,GradientBoostingRegressor,RandomForestRegressor 
+from sklearn.ensemble import AdaBoostRegressor,GradientBoostingRegressor,RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 from sklearn.tree import DecisionTreeRegressor 
@@ -10,6 +10,8 @@ from xgboost import XGBRegressor
 from sklearn.neighbors import KNeighborsRegressor
 from src.exception  import CustomException
 from src.logger import logging 
+from catboost import CatBoostRegressor
+
 
 
 from src.utils import save_object
@@ -34,17 +36,51 @@ class ModelTrainer:
             )
             
             models = {
-                'Linear Regression': LinearRegression(),
-                'Decision Tree Regressor': DecisionTreeRegressor(),
-                'Random Forest Regressor': RandomForestRegressor(),
-                'Gradient Boosting Regressor': GradientBoostingRegressor(),
-                'XGBoost Regressor': XGBRegressor(),
-                'KNeighbors Regressor': KNeighborsRegressor(),
-                'AdaBoost Regressor': AdaBoostRegressor()
+                "Random Forest": RandomForestRegressor(),
+                "Decision Tree": DecisionTreeRegressor(),
+                "Gradient Boosting": GradientBoostingRegressor(),
+                "Linear Regression": LinearRegression(),
+                "XGBRegressor": XGBRegressor(),
+                "CatBoosting Regressor": CatBoostRegressor(verbose=False),
+                "AdaBoost Regressor": AdaBoostRegressor(),
             }
             
             
-            model_report:dict = evaluate_models(x_train,y_train,x_test,y_test,models=models)
+            params = {
+                "Decision Tree": {
+                    'criterion': ['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
+                    'max_features' : ['sqrt','log2'],
+                    'splitter': ['best','random']
+                },
+                
+                "Random Forest": {
+                    # 'criterion': ['squared_error','friedman_mse' ,'absolute_error', 'poisson'],
+                    # 'max_features': ['sqrt', 'log2', None],
+                    'n_estimators': [8,16,32,64,128,256]
+                },
+                "Gradient Boosting" : {
+                    'learning_rate': [0.1,0.01,0.05,0.001],
+                    'subsample': [0.6,0.7,0.8,0.85,0.9,0.95,1.0],
+                    'n_estimators': [8,16,32,64,128,256]
+                },
+                "Linear Regression": {},
+                "XGBRegressor": {
+                    'learning_rate': [0.1, 0.01, 0.05, 0.001],
+                    'n_estimators': [8, 16, 32, 64, 128, 256]
+                },
+                "CatBoosting Regressor": {
+                    'learning_rate': [0.1, 0.01, 0.05, 0.001],
+                    'depth': [4, 6, 8, 10],
+                    'iterations': [50, 100, 200]
+                },
+                "AdaBoost Regressor": {
+                    'n_estimators': [8,16,32,64,128,256],
+                    'learning_rate': [0.1,0.01,0.05,0.001]
+                }
+            }
+            
+             
+            model_report:dict = evaluate_models(x_train,y_train,x_test,y_test,models=models,param=params)
             
             ## To get best model score from dict 
             best_model_score  = max(sorted(model_report.values()))
@@ -74,4 +110,3 @@ class ModelTrainer:
         
         except Exception as e:
             raise CustomException(e,sys)
-
