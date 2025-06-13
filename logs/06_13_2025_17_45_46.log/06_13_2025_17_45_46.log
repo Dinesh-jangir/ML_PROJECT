@@ -1,0 +1,6 @@
+[ 2025-06-13 17:45:46,263 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-13 17:45:46,272 ] 97 werkzeug - INFO -  * Debugger PIN: 785-240-574
+[ 2025-06-13 17:45:52,998 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:45:52] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 17:45:53,255 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:45:53] "GET /static/styles.css HTTP/1.1" 200 -
+[ 2025-06-13 17:46:14,496 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:46:14] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 17:46:14,572 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:46:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -

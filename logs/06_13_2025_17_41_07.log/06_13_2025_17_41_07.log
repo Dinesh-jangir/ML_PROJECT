@@ -1,0 +1,7 @@
+[ 2025-06-13 17:41:07,440 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-13 17:41:07,455 ] 97 werkzeug - INFO -  * Debugger PIN: 785-240-574
+[ 2025-06-13 17:41:16,260 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:41:16] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 17:41:16,368 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:41:16] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+[ 2025-06-13 17:41:48,548 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:41:48] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 17:41:48,583 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:41:48] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+[ 2025-06-13 17:42:05,863 ] 97 werkzeug - INFO -  * Detected change in 'c:\\users\\dinesh jangir\\mlproject\\app.py', reloading

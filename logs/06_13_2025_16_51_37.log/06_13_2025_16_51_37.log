@@ -1,0 +1,11 @@
+[ 2025-06-13 16:51:37,967 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-13 16:51:38,025 ] 97 werkzeug - INFO -  * Debugger PIN: 785-240-574
+[ 2025-06-13 17:03:13,989 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:03:13] "GET / HTTP/1.1" 200 -
+[ 2025-06-13 17:03:14,081 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:03:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-06-13 17:03:25,885 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:03:25] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 17:03:56,684 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:03:56] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-06-13 17:03:57,109 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:03:57] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2025-06-13 17:03:57,175 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:03:57] "GET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2025-06-13 17:03:57,364 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:03:57] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=lI4m5JINPcx6BKMik3e1 HTTP/1.1" 200 -
+[ 2025-06-13 17:03:57,413 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:03:57] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2025-06-13 17:05:46,092 ] 97 werkzeug - INFO -  * Detected change in 'c:\\users\\dinesh jangir\\mlproject\\src\\utils.py', reloading

@@ -1,0 +1,23 @@
+[ 2025-06-13 12:41:21,739 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-13 12:41:21,765 ] 97 werkzeug - INFO -  * Debugger PIN: 113-042-249
+[ 2025-06-13 12:53:50,218 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:53:50] "GET / HTTP/1.1" 200 -
+[ 2025-06-13 12:53:50,483 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:53:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-06-13 12:54:20,378 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:54:20] "[33mGET /index.html HTTP/1.1[0m" 404 -
+[ 2025-06-13 12:54:28,888 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:54:28] "[33mGET /home.html HTTP/1.1[0m" 404 -
+[ 2025-06-13 12:54:54,099 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:54:54] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 12:54:54,377 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:54:54] "GET /static/styles.css HTTP/1.1" 200 -
+[ 2025-06-13 12:55:24,589 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:55:24] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-06-13 12:55:25,132 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:55:25] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2025-06-13 12:55:25,335 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:55:25] "GET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2025-06-13 12:55:25,489 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:55:25] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=BatPTUjHbnXWwFKTQY4D HTTP/1.1" 200 -
+[ 2025-06-13 12:55:25,508 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:55:25] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2025-06-13 12:55:51,982 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:55:51] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 12:55:52,026 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:55:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+[ 2025-06-13 12:57:32,676 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:57:32] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 12:57:32,764 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:57:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+[ 2025-06-13 12:58:00,242 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:58:00] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-06-13 12:58:00,368 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:58:00] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-06-13 12:58:00,390 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:58:00] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-06-13 12:58:00,409 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:58:00] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=BatPTUjHbnXWwFKTQY4D HTTP/1.1[0m" 304 -
+[ 2025-06-13 12:58:00,465 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 12:58:00] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-06-13 13:03:11,804 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\dinesh jangir\\MLProject\\app.py', reloading

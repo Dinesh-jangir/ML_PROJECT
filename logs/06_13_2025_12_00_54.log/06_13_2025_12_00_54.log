@@ -1,0 +1,4 @@
+[ 2025-06-13 12:00:54,340 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-13 12:00:54,374 ] 97 werkzeug - INFO -  * Debugger PIN: 113-042-249
+[ 2025-06-13 12:05:06,728 ] 97 werkzeug - INFO - 192.168.247.1 - - [13/Jun/2025 12:05:06] "GET / HTTP/1.1" 200 -
+[ 2025-06-13 12:05:06,794 ] 97 werkzeug - INFO - 192.168.247.1 - - [13/Jun/2025 12:05:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

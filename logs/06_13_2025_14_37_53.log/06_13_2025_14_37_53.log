@@ -1,0 +1,10 @@
+[ 2025-06-13 14:37:53,681 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-13 14:37:53,693 ] 97 werkzeug - INFO -  * Debugger PIN: 785-240-574
+[ 2025-06-13 14:38:00,074 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 14:38:00] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 14:38:00,250 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 14:38:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+[ 2025-06-13 14:38:19,468 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 14:38:19] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-06-13 14:38:19,505 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 14:38:19] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-06-13 14:38:19,517 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 14:38:19] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-06-13 14:38:19,615 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 14:38:19] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=ezABeu2opVVJouINYtqI HTTP/1.1" 200 -
+[ 2025-06-13 14:38:19,633 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 14:38:19] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-06-13 14:39:14,034 ] 97 werkzeug - INFO -  * Detected change in 'c:\\users\\dinesh jangir\\mlproject\\app.py', reloading

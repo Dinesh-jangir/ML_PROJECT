@@ -1,0 +1,11 @@
+[ 2025-06-13 17:06:45,252 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-13 17:06:45,271 ] 97 werkzeug - INFO -  * Debugger PIN: 785-240-574
+[ 2025-06-13 17:06:52,683 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:06:52] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 17:06:52,686 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:06:52] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 17:07:15,845 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:07:15] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-06-13 17:07:16,000 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:07:16] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-06-13 17:07:16,022 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:07:16] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-06-13 17:07:16,130 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:07:16] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=jPEgWPfYvY2NTEShmthS HTTP/1.1" 200 -
+[ 2025-06-13 17:07:16,148 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:07:16] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-06-13 17:11:42,806 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:11:42] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 17:12:01,034 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\dinesh jangir\\MLProject\\src\\pipeline\\predict_pipeline.py', reloading

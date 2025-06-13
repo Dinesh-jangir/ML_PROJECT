@@ -1,0 +1,7 @@
+[ 2025-06-13 17:23:41,601 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-13 17:23:41,611 ] 97 werkzeug - INFO -  * Debugger PIN: 785-240-574
+[ 2025-06-13 17:23:48,391 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:23:48] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 17:24:11,324 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:24:11] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 17:26:52,424 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:26:52] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 17:26:56,766 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2025 17:26:56] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-06-13 17:27:09,585 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\dinesh jangir\\MLProject\\file\\waste.py', reloading
