@@ -1,0 +1,9 @@
+[ 2025-06-29 12:31:40,307 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-06-29 12:31:40,359 ] 97 werkzeug - INFO -  * Debugger PIN: 603-725-825
+[ 2025-06-29 12:32:41,504 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Jun/2025 12:32:41] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-29 12:32:41,948 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Jun/2025 12:32:41] "GET /static/styles.css HTTP/1.1" 200 -
+[ 2025-06-29 12:32:42,083 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Jun/2025 12:32:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-06-29 12:32:54,678 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Jun/2025 12:32:54] "GET / HTTP/1.1" 200 -
+[ 2025-06-29 12:33:08,002 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Jun/2025 12:33:08] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-06-29 12:33:08,051 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Jun/2025 12:33:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+[ 2025-06-29 12:33:15,932 ] 97 werkzeug - INFO - 127.0.0.1 - - [29/Jun/2025 12:33:15] "[33mGET /index HTTP/1.1[0m" 404 -
