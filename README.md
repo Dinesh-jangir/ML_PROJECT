@@ -5,6 +5,7 @@ This project focuses on predicting the **burned area of forest fires** in the no
 ---
 
 ## 📁 Project Structure
+``` bash
 
 ML_PROJECT/
 │
@@ -26,7 +27,7 @@ ML_PROJECT/
 └── README.md # Project documentation
 
 
----
+--- 
 
 ## 📊 Dataset
 
